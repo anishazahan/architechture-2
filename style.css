@@ -70,8 +70,11 @@ nav{
 
 /* .................hero section style............. */
 
-.hero-img{
+.hero-section{
+    background-color: gainsboro;
+}
 
+.hero-img{
     width: 100%;
     background-image: 
     linear-gradient(to right bottom, 
@@ -87,17 +90,16 @@ nav{
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.hero-section{
-    margin-top: 20px;
-}
 
 /* .................banner  section style............. */
 
+.banner{
+    background-color: gainsboro;
+}
 
 .banner-container{
     max-width: 1280px;
     margin: auto;
-    background-color: gainsboro;
     padding: 7% 0;
     text-align: center;
 
@@ -217,4 +219,10 @@ nav{
         width: 100%;
     }
 
+    .banner-container{
+        padding: 7% 2%;
+    }
+    .banner{
+        margin-top: 20px;
+    }
   }
