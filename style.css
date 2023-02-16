@@ -91,6 +91,96 @@ nav{
     margin-top: 20px;
 }
 
+/* .................banner  section style............. */
+
+
+.banner-container{
+    max-width: 1280px;
+    margin: auto;
+    background-color: gainsboro;
+    padding: 7% 0;
+    text-align: center;
+
+}
+.banner-heading{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.921);
+    font-size: 7vh;
+    line-height: 45px;
+
+}
+.banner-text{
+    color: rgba(0, 0, 0, 0.537);
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.banner-btn-cintainer{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.banner-btn {
+    min-height: 53px;
+    min-width: 166px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-12.74%, rgba(0,0,0, .5)), color-stop(56.76%, rgba(0,0,0, .271)));
+    background: linear-gradient(90deg, rgba(0,0,0, .5) -12.74%, rgba(0,0,0, .271) 56.76%);
+    border: 2px solid black;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .banner-btn:before {
+    content: "";
+    width: 4px;
+    height: 28px;
+    background: black;
+    border: 2px solid black;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    bottom: -7px;
+    left: 4px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .banner-btn:after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: -2px;
+    border-top: 15px solid transparent;
+    border-left: 15px solid black;
+  }
+
+
+/* .................hero section style............. */
+
+
+/* .................hero section style............. */
+
+
+/* .................hero section style............. */
+
+
+/* .................hero section style............. */
 
 
 
