@@ -35,8 +35,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    padding: 0 10px 0 10px;
+    margin: 20px 0;
+    
 }
 .logo{
     display: flex; 
@@ -67,6 +67,27 @@ nav{
     font-weight: 500;
     background-color: var(--primary-color);
 }
+
+/* .................hero section style............. */
+
+.hero-img{
+
+    width: 100%;
+    background-image: 
+    linear-gradient(to right bottom, 
+   rgba(0,0,0,0.5),
+   rgba(0,0,0,0.5));
+   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+   
+
+}
+.hero-img img{
+    
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+
 
 
 
