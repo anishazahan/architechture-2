@@ -87,6 +87,10 @@ nav{
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
+.hero-section{
+    margin-top: 20px;
+}
+
 
 
 
@@ -106,4 +110,21 @@ nav{
         gap: 10px;
         margin-top: 10px;
     }
+  }
+
+  @media only screen and (max-width: 992px){
+    nav{
+        margin: 0 20px;
+    }
+    .hero-img{
+        margin: 20px;
+        margin: auto;
+        width: 100%;
+    }
+    .hero-img img{
+        margin: 20px;
+        margin: auto;
+        width: 100%;
+    }
+
   }
