@@ -66,6 +66,7 @@ nav{
     color: aliceblue;
     font-weight: 500;
     background-color: var(--primary-color);
+    transition: 2s;
 }
 
 /* .................hero section style............. */
@@ -414,6 +415,12 @@ nav{
     clear: both;
   }
 
+  .login-btn:hover{
+         background: transparent;
+         color: black;
+         border: 2px solid black;
+         transition: 2s;
+  }
  
  
 
@@ -428,6 +435,9 @@ nav{
 @media only screen and (max-width: 340px) {
     .footer .col {
       width: 100%;
+    }
+    .footer{
+        width: 100%;
     }
   }
 
@@ -513,6 +523,13 @@ nav{
     }
     .social h1 {
       margin: 0px;
+    }
+    .feature-container{
+        display: flex;
+      flex-direction: column;
+    }
+    .feature-content-section{
+        margin: 7% 5%;
     }
   }
   @media only screen and (max-width: 950px) {
