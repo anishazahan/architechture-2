@@ -335,10 +335,7 @@ nav{
     font-size: 13px;
     color: gray;
 }
-.feature-img-container{
-    /* background: url(./assets/dots.png); */
-   
-}
+
 .experiace-btn{
     font-weight: 700;
     font-size: 15vh;
@@ -507,6 +504,10 @@ nav{
     .content-section{
         margin: 0 15px;
        
+    }
+    .feature-text-box{
+        width: 95%;
+        margin: auto;
     }
   }
 
