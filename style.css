@@ -231,6 +231,37 @@ nav{
 
 /* .................hero section style............. */
 
+.countDown-container{
+    max-width: 1000px;
+    margin: auto;
+}
+.count-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 0;
+}
+.count{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+    padding: 3% 2.5%;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.count-btn{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.769);
+}
+.count-number{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.69);
+   
+}
+.count-heading{
+    color: gray;
+    font-weight: 500;
+    
+}
+
 
 /* .................hero section style............. */
 
