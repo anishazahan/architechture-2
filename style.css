@@ -264,6 +264,10 @@ nav{
 
 
 /* .................hero section style............. */
+.Sponspors{
+    max-width: 1000px;
+    margin: auto;
+}
 
 
 /* .................hero section style............. */
@@ -436,5 +440,19 @@ nav{
     }
     .footer .col ul li {
       font-size: 13px;
+    }
+    .count-section{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+    .count-main-heading{
+        margin-left: 10px;
+    }
+    .count-main-text{
+        margin-left: 10px;
+    }
+    .count{
+        margin: 10px;
     }
   }
