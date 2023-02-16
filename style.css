@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,700;0,800;1,800;1,900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* .................browser reset style............. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+   
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+:root{
+    --primary-color:black;
+}
+
+
+/* .................header section style............. */
+
+header{
+    max-width: 1280px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+}
+.logo{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo p{
+    color: gray;
+}
+
+.menu ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.login-btn{
+    padding: 10px 25px;
+    color: aliceblue;
+    font-weight: 500;
+    background-color: var(--primary-color);
+}
+
+
+
+
+
+/* .................media query style............. */
+
+@media only screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+  }
